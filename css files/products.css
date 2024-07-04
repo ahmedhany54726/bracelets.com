@@ -1,0 +1,89 @@
+body{
+background-color: white;
+ 
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transition: 0.3s;
+    width: 20rem;
+    border-radius: 15%;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);;
+
+}
+
+.text{
+    padding: 2px 16px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item{
+    display: flex;
+}
+.image-contenar{
+    width: 100%;
+    height: 20rem;
+}
+#button2{
+    color: black;
+    border-radius: 10%;
+    padding: 16px;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 2);
+}
+#button2:hover{
+    background-color: red;
+}
+
+.card-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transition: 0.3s;
+    width: 20rem;
+border-radius: 15%;
+}
+.card-2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);;
+ 
+}
+.text-2{
+    padding: 2px 16px;
+}
+.image-2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.item-2{
+    display: flex;
+}
+.image-contenar-2{
+    width: 100%;
+    height: 20rem;
+
+}
+@media(
+    max-width:1000px){
+    section{
+        padding: 100px 18%;
+    }
+    .home{
+        height: auto;
+    }
+    .home-img img{
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+    
+    }
+    :root{
+        --h1-font: 2.1rem;
+    }
+}
